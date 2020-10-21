@@ -1,4 +1,6 @@
-<i style='font-size:6px;'>English version (versión en español mas abajo)</i>
+```diff
+# English version (versión en español mas abajo)
+```
 
 
 # Didactic pattern visualizer for Tidal Cycles 
