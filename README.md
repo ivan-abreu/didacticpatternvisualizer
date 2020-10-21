@@ -2,5 +2,5 @@
 Sound pattern visualizer in Processing for TidalCycles
 
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=oyO9hwsSlv0&t=5s)
+[![Watch the video](https://ivanabreu.net/images/live-cinema-coding-isea-2019-07-ivan-abreu-artist.jpg)](https://www.youtube.com/watch?v=oyO9hwsSlv0&t=5s)
 
