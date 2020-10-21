@@ -33,6 +33,11 @@ let s1 = streamReplace streamdpv 1
 ```
 
 ### Visualize times marks
+
+Example, set pattern to view the compas divedied in four bars
+
+<img width="700px" src="https://ivanabreu.net/github/4t.jpg">
+
 ```haskell
 
 s4 $ tempo "1 0 0 0"
