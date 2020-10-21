@@ -74,9 +74,9 @@ s4 $ grid "1 0!7"
 ### Visualize sound pattern 
 
 Examples to set pattern in Tidal to view <b>sound pattern</b><br>
-#### You'll need put the function <b># connectionN n</b>, where <b>n</b> is the number of layer playing ("s" or "d")
+You'll need put the function <b># connectionN n</b>, where <b>n</b> is the number of layer playing ("s" or "d")
 
-Example 1:
+Example 1:<br>
 <img width="700px" src="https://ivanabreu.net/github/pattern2x4.jpg">
 
 ```haskell
@@ -88,7 +88,7 @@ do
 
 ```
 
-Example 2:
+Example 2:<br>
 <img width="700px" src="https://ivanabreu.net/github/pattern1_3x4.jpg">
 
 ```haskell
