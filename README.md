@@ -32,10 +32,11 @@ let s1 = streamReplace streamdpv 1
     
 ```
 
-### Visualize times marks
+### Visualize grids for mark times and 
 
-Example, set pattern to view the compas divedied in four bars
+Examples to set pattern in Tidal to view grid and time division
 
+Grid with <b>four times</b>
 <img width="700px" src="https://ivanabreu.net/github/4t.jpg">
 
 ```haskell
@@ -45,6 +46,18 @@ s4 $ tempo "1 0 0 0"
 or
 
 s4 $ grid "1 0!4"
+
+```
+Grid with <b>eith times</b>
+<img width="700px" src="https://ivanabreu.net/github/8t.jpg">
+
+```haskell
+
+s4 $ tempo "1 0 0 0 0 0 0 0"
+
+or
+
+s4 $ grid "1 0!7"
 
 ```
 
