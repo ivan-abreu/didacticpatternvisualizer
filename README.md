@@ -44,7 +44,7 @@ Grid with <b>four times</b>
 
 ```haskell
 
-s4 $ tempo "1 0 0 0"
+s4 $ grid "1 0 0 0"
 
 or
 
@@ -58,7 +58,7 @@ Grid with <b>eight times</b>
 
 ```haskell
 
-s4 $ tempo "1 0 0 0 0 0 0 0"
+s4 $ grid "1 0 0 0 0 0 0 0"
 
 or
 
