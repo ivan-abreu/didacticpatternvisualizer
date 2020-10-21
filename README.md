@@ -129,6 +129,8 @@ do
   s3 $ s "supermandolin" # n "<[d4,e2,g2] [d4,e4,g2]?>" # connectionN 3
   s4 $ grid "1 0 0 0 0 0 0 0"
 
+  -- In d3 the transversality in the pattern is shown (like the chords [d4,e2,g2]) and the randomness with the sign "?"
+  
 ```
 
 
