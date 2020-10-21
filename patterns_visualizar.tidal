@@ -1,0 +1,58 @@
+-- didacticpatternvisualizer  --
+let targetdpv = Target {oName = "didacticpatternvisualizer",
+                     oAddress = "127.0.0.1",
+                     oPort = 1818,
+                     oLatency = 0.2,
+                     oWindow = Nothing,
+                     oSchedule = Live
+                    }
+    formatsdpv = [OSC "/didacticpatternvisualizer"  Named {required = []} ]
+    oscmapdpv = [(targetdpv, formatsdpv)]
+
+    streamdpv <- startStream defaultConfig oscmapdpv
+
+let tempo = pS "tempo"
+    timestamp = pS "timestamp"
+    connectionN = pI "connectionN"
+
+let s1 = streamReplace streamdpv 1
+    s2 = streamReplace streamdpv 2
+    s3 = streamReplace streamdpv 3
+    s4 = streamReplace streamdpv 4
+
+
+hush
+
+do
+  d1 $ s "~ bd plato plato"
+  s1 $ s "~ bd plato plato"
+
+  do
+    d1 $ slow 0.5 $ s "~ bd*2? plato*4"
+    s1 $ slow 0.5 $ s "~ bd*2? plato*4" # connectionN 1
+    d2 $ s "[platox,viola]!2" # cut 1
+    s2 $ s "[platox,viola]!2" # connectionN 2 # cut 1
+    s4 $ tempo "1 0 0 0 0 0"
+
+    do
+      d1 $ s "bd(3,8) cp"
+      s1 $ s "bd(3,8) cp" # connectionN 1
+      s4 $ tempo "[1 0!7] 0"
+
+      do
+        d1 $ s "bd(3,8) cp*4"
+        s1 $ s "bd(3,8) cp*4" # connectionN 1
+        s4 $ tempo "1 0 0 0 0 0 0 0"
+
+      do
+        d1 $ s "bd(3,8)"
+        s1 $ s "bd(3,8)" # connectionN 1
+        s4 $ tempo "1 0!7"
+
+
+do
+  d1 silence
+  s1 silence
+  d2 silence
+  s2 silence
+  s4 silence
