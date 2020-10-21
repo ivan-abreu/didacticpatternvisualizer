@@ -11,8 +11,7 @@ let targetdpv = Target {oName = "didacticpatternvisualizer",
 
     streamdpv <- startStream defaultConfig oscmapdpv
 
-let tempo = pS "tempo"
-    timestamp = pS "timestamp"
+let grid = pS "grid"
     connectionN = pI "connectionN"
 
 let s1 = streamReplace streamdpv 1
