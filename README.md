@@ -40,9 +40,8 @@ let s1 = streamReplace streamdpv 1
 
 ### Visualize grids and time division 
 
-Examples to set pattern in Tidal to view grid and time division
-1 creates a thicker line.
-0 creates a thinner line.
+Examples to set pattern in Tidal to view grid and time division<br>
+#### <b>1 creates a thicker line.<br>0 creates a thinner line.</b>
 
 Grid with <b>four times</b>
 
