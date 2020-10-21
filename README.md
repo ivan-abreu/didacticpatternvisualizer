@@ -100,7 +100,19 @@ do
 
 ```
 
+Example 2:<br>
+<img width="700px" src="https://ivanabreu.net/github/patternd1d2.jpg">
 
+```haskell
+
+do
+   d1 $ s "bd(3,8)"
+   s1 $ s "bd(3,8)" # connectionN 1
+   d2 $ s "hh(6,8)"
+   s2 $ s "hh(6,8)" # connectionN 2
+   s4 $ grid "1 0 0 0 0 0 0 0"
+
+```
 
 
 
