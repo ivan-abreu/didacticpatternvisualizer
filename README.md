@@ -21,8 +21,7 @@ let targetdpv = Target {oName = "didacticpatternvisualizer",
     
     streamdpv <- startStream defaultConfig oscmapdpv
     
-let tempo = pS "tempo"
-    timestamp = pS "timestamp"
+let grid = pS "grid"
     connectionN = pI "connectionN"
 
 let s1 = streamReplace streamdpv 1
@@ -33,7 +32,7 @@ let s1 = streamReplace streamdpv 1
 ```
 
 
-### Visualize grids for mark times and 
+### Visualize grids and time division 
 
 Examples to set pattern in Tidal to view grid and time division
 
