@@ -32,9 +32,11 @@ let s1 = streamReplace streamdpv 1
     
 ```
 
+
 ### Visualize grids for mark times and 
 
 Examples to set pattern in Tidal to view grid and time division
+
 
 Grid with <b>four times</b>
 
@@ -49,7 +51,8 @@ or
 s4 $ grid "1 0!4"
 
 ```
-Grid with <b>eith times</b>
+
+Grid with <b>eight times</b>
 
 <img width="700px" src="https://ivanabreu.net/github/8t.jpg">
 
@@ -62,6 +65,8 @@ or
 s4 $ grid "1 0!7"
 
 ```
+
+
 
 ### Contact or reports
 
