@@ -20,38 +20,43 @@ let s1 = streamReplace streamdpv 1
     s4 = streamReplace streamdpv 4
 
 
-hush
+s4 $ grid "1 0 0 0"
+
+s4 $ grid "1 0!3"
+
+s4 $ grid "1 0 0 0 0 0 0 0"
 
 do
-  d1 $ s "~ bd plato plato"
-  s1 $ s "~ bd plato plato"
+  d1 $ s "bd cp"
+  s1 $ s "bd cp" # connectionN 1
+  s4 $ grid "1 0 0 0"
 
-  do
-    d1 $ slow 0.5 $ s "~ bd*2? plato*4"
-    s1 $ slow 0.5 $ s "~ bd*2? plato*4" # connectionN 1
-    d2 $ s "[platox,viola]!2" # cut 1
-    s2 $ s "[platox,viola]!2" # connectionN 2 # cut 1
-    s4 $ tempo "1 0 0 0 0 0"
+do
+  d1 $ s "bd cp*3"
+  s1 $ s "bd cp*3" # connectionN 1
+  s4 $ grid "1 0 0 0"
 
-    do
-      d1 $ s "bd(3,8) cp"
-      s1 $ s "bd(3,8) cp" # connectionN 1
-      s4 $ tempo "[1 0!7] 0"
+do
+  d1 $ s "bd(3,8)"
+  s1 $ s "bd(3,8)" # connectionN 1
+  d2 $ s "hh(6,8)"
+  s2 $ s "hh(6,8)" # connectionN 2
+  s4 $ grid "1 0 0 0 0 0 0 0"
 
-      do
-        d1 $ s "bd(3,8) cp*4"
-        s1 $ s "bd(3,8) cp*4" # connectionN 1
-        s4 $ tempo "1 0 0 0 0 0 0 0"
-
-      do
-        d1 $ s "bd(3,8)"
-        s1 $ s "bd(3,8)" # connectionN 1
-        s4 $ tempo "1 0!7"
-
+do
+  d1 $ s "bd(3,8)"
+  s1 $ s "bd(3,8)" # connectionN 1
+  d2 $ s "hh(6,8)"
+  s2 $ s "hh(6,8)" # connectionN 2
+  d3 $ s "supermandolin" # n "<[d4,e2,g2] [d4,e4,g2]?>" # room 0.8 # legato 3
+  s3 $ s "supermandolin" # n "<[d4,e2,g2] [d4,e4,g2]?>" # connectionN 3
+  s4 $ grid "1 0 0 0 0 0 0 0"
 
 do
   d1 silence
   s1 silence
   d2 silence
   s2 silence
+  d3 silence
+  s3 silence
   s4 silence
