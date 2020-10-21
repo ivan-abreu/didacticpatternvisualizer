@@ -100,7 +100,7 @@ do
 
 ```
 
-Example 2:<br>
+Example 3:<br>
 <img width="700px" src="https://ivanabreu.net/github/patternd1d2.jpg">
 
 ```haskell
@@ -111,6 +111,22 @@ do
    d2 $ s "hh(6,8)"
    s2 $ s "hh(6,8)" # connectionN 2
    s4 $ grid "1 0 0 0 0 0 0 0"
+
+```
+
+Example 4:<br>
+<img width="700px" src="https://ivanabreu.net/github/patternd1d2d3.jpg">
+
+```haskell
+
+do
+  d1 $ s "bd(3,8)"
+  s1 $ s "bd(3,8)" # connectionN 1
+  d2 $ s "hh(6,8)"
+  s2 $ s "hh(6,8)" # connectionN 2
+  d3 $ s "supermandolin" # n "<[d4,e2,g2] [d4,e4,g2]?>" # room 0.8 # legato 3
+  s3 $ s "supermandolin" # n "<[d4,e2,g2] [d4,e4,g2]?>" # connectionN 3
+  s4 $ grid "1 0 0 0 0 0 0 0"
 
 ```
 
