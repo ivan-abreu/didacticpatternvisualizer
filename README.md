@@ -1,5 +1,3 @@
-<font size="-3">english version [version en español mas abajo]</font>
-
 # Didactic pattern visualizer for Tidal Cycles 
 
 Sound pattern visualizer in Processing
