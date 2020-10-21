@@ -1,4 +1,4 @@
-# Didactic pattern visualizer for Tidal Cycles
+# Didactic pattern visualizer for Tidal Cycles <br> <span style="color:red">Visualizador didactico de patrones para Tidal Cycles</span>
 Sound pattern visualizer in Processing
 
 #
