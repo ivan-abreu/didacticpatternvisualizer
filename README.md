@@ -116,7 +116,7 @@ do
 
 Example 4:<br>
 <!-- <img width="700px" src="https://ivanabreu.net/github/patternd1d2d3.jpg"> -->
-[![SC2 Video](https://ivanabreu.net/github/patternd1d2d3.jpg)](https://www.youtube.com/watch?v=--b-9HrKK6w "SC2 Mini game - Click to Watch!")
+[![SC2 Video](https://ivanabreu.net/github/patternd1d2d3.jpg)](https://ivanabreu.net/videos/CNDSD_Ivan_Abreu-CODING_IN_ATYPICAL_PLACES.mp4 "Click to Watch >")
 
 ```haskell
 
