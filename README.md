@@ -1,12 +1,7 @@
 # Didactic pattern visualizer for Tidal Cycles
 Sound pattern visualizer in Processing
 
-
-[![Watch the video](https://ivanabreu.net/images/live-cinema-coding-isea-2019-07-ivan-abreu-artist.jpg)](https://www.youtube.com/watch?v=oyO9hwsSlv0&t=5s)
-
-# p5dirt
-
-Sending OSC messages to processing.
+# Sending OSC messages to processing.
 
 You'll need execute tidal code in your editor (usually Atom) ...
 
@@ -35,4 +30,4 @@ let s1 = streamReplace streamdpv 1
     
 ```
 
-Then the included processing example will visualise events in each orbit as binary transitions.
+Please share reports of success / failure with Ivan Abreu via email: data@ivanabreu.net or ivanabreuochoa@gmail.com
