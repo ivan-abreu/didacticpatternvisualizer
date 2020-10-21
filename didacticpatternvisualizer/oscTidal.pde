@@ -34,8 +34,8 @@ void oscEvent(OscMessage m) {
     }
     printArray(tidalLayer);
 
-    if ( tidalLayer.hasKey("tempo") ) {
-      cycles.add( new Cycle( tidalLayer.get("tempo") ) ) ;
+    if ( tidalLayer.hasKey("grid") ) {
+      cycles.add( new Cycle( tidalLayer.get("grid") ) ) ;
     } else {
       float cycle = parseFloat( tidalLayer.get("cycle") );
       int sincroniaC = (int)((cycle - (int)(cycle)) * 100);

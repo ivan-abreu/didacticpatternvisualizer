@@ -35,3 +35,7 @@ void draw() {
     if ( cycles.get(i)!= null) { cycles.get(i).draw(); }
   }
 }
+
+void keyPressed() {
+  save(millis()+".jpg");
+}
