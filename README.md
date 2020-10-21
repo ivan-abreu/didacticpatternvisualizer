@@ -1,4 +1,4 @@
-# Didactic pattern visualizer for Tidal Cycles
+## Didactic pattern visualizer for Tidal Cycles
 Sound pattern visualizer in Processing
 
 ### Sending OSC messages to Processing.
