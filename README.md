@@ -32,6 +32,13 @@ let s1 = streamReplace streamdpv 1
     
 ```
 
+### Visualize times marks
+```haskell
+
+s4 $ tempo "1 0 0 0"
+
+```
+
 ### Contact or reports
 
 Please share reports of success / failure with Ivan Abreu via email: data@ivanabreu.net or ivanabreuochoa@gmail.com
