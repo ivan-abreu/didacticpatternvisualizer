@@ -12,22 +12,27 @@ You'll need execute tidal code in your editor (usually Atom) ...
 
 ```haskell
 
-# p5dirt
+let targetdpv = Target {oName = "didacticpatternvisualizer",
+                     oAddress = "127.0.0.1", -- 192.168.0.102  127.0.0.1
+                     oPort = 1818,
+                     oLatency = 0.2,
+                     oWindow = Nothing,
+                     oSchedule = Live
+                    }
+    formatsdpv = [OSC "/didacticpatternvisualizer"  Named {required = []} ]
+    oscmapdpv = [(targetdpv, formatsdpv)]
+    
+    streamdpv <- startStream defaultConfig oscmapdpv
+    
+let tempo = pS "tempo"
+    timestamp = pS "timestamp"
+    connectionN = pI "connectionN"
 
-A quick example for sending OSC messages to processing as well as superdirt.
-
-You'll need to take your existing BootTidal.hs and change the startTidal bit to ...
-
-```haskell
-:{
-tidal <- startMulti [superdirtTarget {oLatency = 0.2, oAddress = "127.0.0.1", oPort = 57120
-                                     },
-                     superdirtTarget {oLatency = 0.2, oAddress = "127.0.0.1", oPort = 2020,
-                                      oTimestamp = NoStamp
-                                     }
-                    ] (defaultConfig {cFrameTimespan = 1/20})
-:}
-
+let s1 = streamReplace streamdpv 1
+    s2 = streamReplace streamdpv 2
+    s3 = streamReplace streamdpv 3
+    s4 = streamReplace streamdpv 4
+    
 ```
 
 Then the included processing example will visualise events in each orbit as binary transitions.
