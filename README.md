@@ -115,7 +115,6 @@ do
 ```
 
 Example 4:<br>
-<!-- <img width="700px" src="https://ivanabreu.net/github/patternd1d2d3.jpg"> -->
 [![SC2 Video](https://ivanabreu.net/github/patternd1d2d3.jpg)](https://ivanabreu.net/videos/CNDSD_Ivan_Abreu-CODING_IN_ATYPICAL_PLACES.mp4 "Click to Watch >")
 
 ```haskell
@@ -130,7 +129,7 @@ do
   s4 $ grid "1 0 0 0 0 0 0 0"
 
   -- In d3, notes are used in a transversal way (such as chords [d4,e2,g2]) 
-  -- which appear in the same vertical line in the reticule.
+  -- which appear in the same vertical line in the grid.
   -- Randomness is also used with the "?" Sign, so sometimes empty times appear.
   
 ```
