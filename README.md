@@ -1,4 +1,4 @@
-# didacticpatternvisualizer
+# didactic pattern visualizer for Tidal Cycles
 Sound pattern visualizer in Processing for TidalCycles
 
 
