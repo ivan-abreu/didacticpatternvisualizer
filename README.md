@@ -1,7 +1,7 @@
 # Didactic pattern visualizer for Tidal Cycles
 Sound pattern visualizer in Processing
 
-## Sending OSC messages to processing.
+### Sending OSC messages to processing.
 
 You'll need execute tidal code in your editor (usually Atom) ...
 
@@ -30,6 +30,6 @@ let s1 = streamReplace streamdpv 1
     
 ```
 
-### Contact or reports
-.
+#### Contact or reports
+
 Please share reports of success / failure with Ivan Abreu via email: data@ivanabreu.net or ivanabreuochoa@gmail.com
