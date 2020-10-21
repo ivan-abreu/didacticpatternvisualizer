@@ -1,4 +1,4 @@
-##### English version (versión en español mas abajo)
+###### English version (versión en español mas abajo)
 
 # Didactic pattern visualizer for Tidal Cycles 
 
