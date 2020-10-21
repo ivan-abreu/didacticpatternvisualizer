@@ -51,7 +51,7 @@ Grid with <b>four times</b>
 
 s4 $ grid "1 0 0 0"
 
-or
+-- or
 
 s4 $ grid "1 0!4"
 
@@ -65,7 +65,7 @@ Grid with <b>eight times</b>
 
 s4 $ grid "1 0 0 0 0 0 0 0"
 
-or
+-- or
 
 s4 $ grid "1 0!7"
 
