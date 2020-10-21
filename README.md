@@ -37,6 +37,7 @@ let s1 = streamReplace streamdpv 1
 Examples to set pattern in Tidal to view grid and time division
 
 Grid with <b>four times</b>
+
 <img width="700px" src="https://ivanabreu.net/github/4t.jpg">
 
 ```haskell
@@ -49,6 +50,7 @@ s4 $ grid "1 0!4"
 
 ```
 Grid with <b>eith times</b>
+
 <img width="700px" src="https://ivanabreu.net/github/8t.jpg">
 
 ```haskell
