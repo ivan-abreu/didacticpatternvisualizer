@@ -42,6 +42,10 @@ Example, set pattern to view the compas divedied in four bars
 
 s4 $ tempo "1 0 0 0"
 
+or
+
+s4 $ grid "1 0!4"
+
 ```
 
 ### Contact or reports
