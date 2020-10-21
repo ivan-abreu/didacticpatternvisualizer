@@ -1,4 +1,4 @@
-<p style='color:#ff0000;font-size:9px'>english version [version en español mas abajo]</p>
+<font size="-1">english version [version en español mas abajo]</font>
 
 # Didactic pattern visualizer for Tidal Cycles 
 
