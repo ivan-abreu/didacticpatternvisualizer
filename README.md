@@ -1,6 +1,7 @@
 # Didactic pattern visualizer for Tidal Cycles
 Sound pattern visualizer in Processing
-<hr>
+
+
 ### Sending OSC messages to Processing.
 
 You'll need execute tidal code in your editor (usually Atom) ...
