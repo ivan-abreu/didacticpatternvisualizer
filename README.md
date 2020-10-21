@@ -10,7 +10,7 @@ You'll need execute tidal code in your editor (usually Atom) ...
 ```haskell
 
 let targetdpv = Target {oName = "didacticpatternvisualizer",
-                     oAddress = "127.0.0.1", -- 192.168.0.102  127.0.0.1
+                     oAddress = "127.0.0.1",
                      oPort = 1818,
                      oLatency = 0.2,
                      oWindow = Nothing,
