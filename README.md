@@ -30,10 +30,10 @@ let targetdpv = Target {oName = "didacticpatternvisualizer",
 let grid = pS "grid"
     connectionN = pI "connectionN"
 
-let s1 = streamReplace streamdpv 1
-    s2 = streamReplace streamdpv 2
-    s3 = streamReplace streamdpv 3
-    s4 = streamReplace streamdpv 4
+let d1 = streamReplace streamdpv 1
+    d2 = streamReplace streamdpv 2
+    d3 = streamReplace streamdpv 3
+    d4 = streamReplace streamdpv 4
     
 ```
 
