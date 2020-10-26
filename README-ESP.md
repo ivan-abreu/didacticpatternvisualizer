@@ -3,15 +3,15 @@
 ```
 
 
-# Didactic pattern visualizer for Tidal Cycles 
+# Visualizador didactico de patrones para Tidal Cycles 
 
-Sound pattern visualizer in Processing
+Visualizador de patrones sonoros en Processing
 
 #
 
-### Sending OSC messages to Processing.
+### Enviar mensajes OSC a Processing.
 
-You'll need execute tidal code in your editor (usually Atom) ...
+Necesitarás ejecutar este código de Tidal en tu editor (usualmente Atom) ... 
 
 ```haskell
 
@@ -38,7 +38,7 @@ let s1 = streamReplace streamdpv 1
 ```
 
 
-### Visualize grids and time division 
+### Visualizar la retícula y las diviones temporales 
 
 Examples to set pattern in Tidal to view grid and time division<br>
 #### <b>1 creates a thicker line.<br>0 creates a thinner line.</b>
