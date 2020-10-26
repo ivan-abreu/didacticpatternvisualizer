@@ -134,8 +134,7 @@ do
   
 ```
 
-[go](https://ivanabreu.net/videos/CNDSD_Ivan_Abreu-CODING_IN_ATYPICAL_PLACES.mp4){:target="_blank" rel="noopener"}
-
+<a href="https://ivanabreu.net/videos/CNDSD_Ivan_Abreu-CODING_IN_ATYPICAL_PLACES.mp4" target="_blank">https://ivanabreu.net/videos/CNDSD_Ivan_Abreu-CODING_IN_ATYPICAL_PLACES.mp4/a>
 
 ### Contact or reports
 
