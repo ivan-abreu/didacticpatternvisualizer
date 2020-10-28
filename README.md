@@ -132,8 +132,8 @@ asap $ connectionMax 12 # speedSequenser 2
 Examples to set pattern in Tidal to view <b>sound pattern</b><br>
 You'll need put the function <b># connectionN n</b>, where <b>n</b> is the number of layer or connection, example: d1, d2, d3.
 
-Example 1:<br>
-<img src="https://ivanabreu.net/github/pattern1_1x4.jpg">
+1. Simple pattern example :<br>
+[![SC2 Video](https://ivanabreu.net/github/patternsimple01play.jpg)](https://ivanabreu.net/github/patternsimple01.mp4 "Click to play >")
 
 ```haskell
 
