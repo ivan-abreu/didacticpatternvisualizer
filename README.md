@@ -94,7 +94,7 @@ d5 $ grid "1 0!7"
 
 <b>Two</b> connections
 
-<img src="https://ivanabreu.net/github/8t.jpg">
+<img src="https://ivanabreu.net/github/twoconnections.jpg">
 
 ```haskell
 
@@ -102,9 +102,9 @@ asap $ connectionMax 2 # speedSequenser 2
 
 ```
 
-<b>Four</b> connections
+<b>Six</b> connections
 
-<img src="https://ivanabreu.net/github/8t.jpg">
+<img src="https://ivanabreu.net/github/sixconnections.jpg">
 
 ```haskell
 
@@ -112,9 +112,9 @@ asap $ connectionMax 2 # speedSequenser 2
 
 ```
 
-<b>Eight</b> connections
+<b>twelve</b> connections
 
-<img src="https://ivanabreu.net/github/8t.jpg">
+<img src="https://ivanabreu.net/github/twelveconnections.jpg">
 
 ```haskell
 
