@@ -57,7 +57,7 @@ do
 #
 
 
-### Visualize grids and time division 
+### Visualize grids, time division and numbers of conecctions (layers or tracks) 
 
 Examples to set pattern in Tidal to view grid and time division<br>
 #### <b>1 creates a thicker line.<br>0 creates a thinner line.</b>
@@ -90,13 +90,48 @@ d5 $ grid "1 0!7"
 
 ```
 
+#### Change the connection number you want to view and the speed of the sequencer animation.
+
+<b>Two</b> connections
+
+<img src="https://ivanabreu.net/github/8t.jpg">
+
+```haskell
+
+asap $ connectionMax 2 # speedSequenser 2
+
+```
+
+<b>Four</b> connections
+
+<img src="https://ivanabreu.net/github/8t.jpg">
+
+```haskell
+
+asap $ connectionMax 2 # speedSequenser 2
+
+```
+
+<b>Eight</b> connections
+
+<img src="https://ivanabreu.net/github/8t.jpg">
+
+```haskell
+
+asap $ connectionMax 2 # speedSequenser 2
+
+```
+
+
+
+
 ### Visualize sound pattern 
 
 Examples to set pattern in Tidal to view <b>sound pattern</b><br>
-You'll need put the function <b># connectionN n</b>, where <b>n</b> is the number of layer playing ("s" or "d")
+You'll need put the function <b># connectionN n</b>, where <b>n</b> is the number of layer or connection, example: d1, d2, d3.
 
 Example 1:<br>
-<img width="700px" src="https://ivanabreu.net/github/pattern1_1x4.jpg">
+<img src="https://ivanabreu.net/github/pattern1_1x4.jpg">
 
 ```haskell
 
