@@ -8,7 +8,8 @@ Sound pattern visualizer in Processing
 
 #
 
-Musical pattern created by electronic musician and digital artist CNDSD, using the original samples from TidalCycles:<br>
+Musical pattern created by electronic musician and digital artist <b>CNDSD</b>, using the original samples from TidalCycles:
+
 [![SC2 Video](https://ivanabreu.net/github/videomali.jpg)](https://ivanabreu.net/videos/soundpatternbycndsd.mp4 "Click to play >")
 
 
