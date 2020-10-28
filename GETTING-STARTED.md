@@ -122,6 +122,6 @@ let  setI = streamSetI tidal
 
 ### 2. Download Processing sketch "didacticpatternvisualizer" and play.
 
-### 3. Execute some example from readme.md.
+### 3. Execute some example from [README.md](README.md) 
 
 
