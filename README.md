@@ -64,29 +64,29 @@ Examples to set pattern in Tidal to view grid and time division<br>
 
 Grid with <b>four times</b>
 
-<img width="700px" src="https://ivanabreu.net/github/4t.jpg">
+<img src="https://ivanabreu.net/github/4t.jpg">
 
 ```haskell
 
-s4 $ grid "1 0 0 0"
+d5 $ grid "1 0 0 0"
 
 -- or
 
-s4 $ grid "1 0!4"
+d5 $ grid "1 0!4"
 
 ```
 
 Grid with <b>eight times</b>
 
-<img width="700px" src="https://ivanabreu.net/github/8t.jpg">
+<img src="https://ivanabreu.net/github/8t.jpg">
 
 ```haskell
 
-s4 $ grid "1 0 0 0 0 0 0 0"
+d5 $ grid "1 0 0 0 0 0 0 0"
 
 -- or
 
-s4 $ grid "1 0!7"
+d5 $ grid "1 0!7"
 
 ```
 
@@ -101,8 +101,9 @@ Example 1:<br>
 ```haskell
 
 do
+  asap $ connectionMax 2 # speedSequenser 4
+  d5 $ grid "1 0 0 0"
   d1 $ s "bd cp" # connectionN 1
-  d4 $ grid "1 0 0 0"
 
 ```
 
@@ -112,8 +113,9 @@ Example 2:<br>
 ```haskell
 
 do
-   d1 $ s "bd cp*3" # connectionN 1
-   d4 $ grid "1 0 0 0"
+  asap $ connectionMax 2 # speedSequenser 4
+  d5 $ grid "1 0 0 0 0 0 0 0"
+  d1 $ s "bd cp*4" # connectionN 1
 
 ```
 
@@ -123,9 +125,10 @@ Example 3:<br>
 ```haskell
 
 do
-   d1 $ s "bd(3,8)" # connectionN 1
-   d2 $ s "hh(6,8)" # connectionN 2
-   d4 $ grid "1 0 0 0 0 0 0 0"
+  asap $ connectionMax 2 # speedSequenser 4
+  d5 $ grid "1 0!7"
+  d1 $ s "bd(3,8)" # connectionN 1
+  d2 $ s "hh(6,8)" # connectionN 2
 
 ```
 
@@ -135,10 +138,11 @@ Example 4:<br>
 ```haskell
 
 do
-  d1 $ s "bd(3,8)" # connectionN 1
-  d2 $ s "hh(6,8)" # connectionN 2
-  d3 $ s "supermandolin" # n "<[d4,e2,g2] [d4,e4,g2]?>" # connectionN 3
-  d4 $ grid "1 0 0 0 0 0 0 0"
+  asap $ qtrigger 1 $ connectionMax 2 # speedSequenser 2
+  d5 $ grid "1 0!15"
+  d1 $ note "{0!8 3 2!8 4 3 3 2!4}%16" # sound "bd" # gain (range 1.1 0.4 saw)
+     # cps (slow 16 (range 2 0.125 saw)) # connectionN 1
+  d2 $ note "0(5,16)" # sound "superhat" # gain (range 1.1 0.4 saw) # connectionN 2
 
   -- In d3, notes are used in a transversal way (such as chords [d4,e2,g2]) 
   -- which appear in the same vertical line in the grid.
