@@ -2,7 +2,7 @@
 
 # Didactic pattern visualizer for Tidal Cycles 
 
-Sound pattern visualizer programmed in Processing by the artist Ivan Abreu to study the potential and complexity of the syntax of the pattern system for sequencing <b>Tida Cycles</b> sounds, it is also a useful tool for composing having visual feedback of ordering and sound intensities and can be a fun visual software during the live act to unfold the musical composition and with them emphasize and direct attention to the subtleties that are semi-hidden in the multiple layers created by the artist.
+Sound pattern visualizer programmed in Processing by the artist Ivan Abreu to study the potential and complexity of the syntax of the pattern system for sequencing <b>Tida Cycles</b> sounds, it is also a useful tool for composing having visual feedback of ordering and sound intentions and can be a fun visual software during the live act to unfold the musical composition and with them emphasize and direct attention to the subtleties that are semi-hidden in the multiple layers created by the artist.
 
 #
 
