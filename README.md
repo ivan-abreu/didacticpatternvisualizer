@@ -108,7 +108,7 @@ asap $ connectionMax 2 # speedSequenser 2
 
 ```haskell
 
-asap $ connectionMax 2 # speedSequenser 2
+asap $ connectionMax 6 # speedSequenser 2
 
 ```
 
@@ -118,7 +118,7 @@ asap $ connectionMax 2 # speedSequenser 2
 
 ```haskell
 
-asap $ connectionMax 2 # speedSequenser 2
+asap $ connectionMax 12 # speedSequenser 2
 
 ```
 
