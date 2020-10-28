@@ -1,6 +1,3 @@
-```diff
-# [Versión en español](README-ESP.md) 
-```
 [Versión en español](README-ESP.md) 
 
 # Didactic pattern visualizer for Tidal Cycles 
@@ -11,7 +8,7 @@ Sound pattern visualizer programmed in Processing by the artist Ivan Abreu to st
 
 Musical pattern created by electronic musician and digital artist <b>CNDSD</b>:
 
-[![SC2 Video](https://ivanabreu.net/github/videomali.jpg)](https://ivanabreu.net/videos/soundpatternbycndsd.mp4 "Click to play >")
+[![SC2 Video](https://ivanabreu.net/github/videomali.jpg)](https://ivanabreu.net/github/soundpatternbycndsd.mp4 "Click to play >")
 
 Code from previous video by <b>CNDSD</b>, using only defaults samples of TidalCycles:
 
