@@ -1,5 +1,6 @@
 ```diff
 # English version (versión en español mas abajo)
+[Project explanation](path/to/explainer.md) 
 ```
 
 # Didactic pattern visualizer for Tidal Cycles 
