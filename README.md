@@ -132,7 +132,8 @@ asap $ connectionMax 12 # speedSequenser 2
 Examples to set pattern in Tidal to view <b>sound pattern</b><br>
 You'll need put the function <b># connectionN n</b>, where <b>n</b> is the number of layer or connection, example: d1, d2, d3.
 
-1. Simple pattern example :<br>
+1. Simple pattern example :
+
 [![SC2 Video](https://ivanabreu.net/github/patternsimple01play.jpg)](https://ivanabreu.net/github/patternsimple01.mp4 "Click to play >")
 
 ```haskell
@@ -144,8 +145,9 @@ do
 
 ```
 
-Example 2:<br>
-<img width="700px" src="https://ivanabreu.net/github/pattern1_3x4.jpg">
+2. Simple pattern example :
+
+[![SC2 Video](https://ivanabreu.net/github/patternsimple02play.jpg)](https://ivanabreu.net/github/patternsimple02.mp4 "Click to play >")
 
 ```haskell
 
@@ -156,8 +158,9 @@ do
 
 ```
 
-Example 3:<br>
-<img width="700px" src="https://ivanabreu.net/github/patternd1d2.jpg">
+3. Euclidian pattern example :
+
+[![SC2 Video](https://ivanabreu.net/github/patterneuclidianplay.jpg)](https://ivanabreu.net/github/patterneuclidian.mp4 "Click to play >")
 
 ```haskell
 
@@ -169,8 +172,9 @@ do
 
 ```
 
-Example 4:<br>
-[![SC2 Video](https://ivanabreu.net/github/patternd1d2d3.jpg)](https://ivanabreu.net/videos/CNDSD_Ivan_Abreu-CODING_IN_ATYPICAL_PLACES.mp4 "Click to Watch >")
+4. Pattern contracting and expanding time with a saw wave:
+
+[![SC2 Video](https://ivanabreu.net/github/patterncpsplay.jpg)](https://ivanabreu.net/github/patterncps.mp4 "Click to play >")
 
 ```haskell
 
@@ -180,10 +184,6 @@ do
   d1 $ note "{0!8 3 2!8 4 3 3 2!4}%16" # sound "bd" # gain (range 1.1 0.4 saw)
      # cps (slow 16 (range 2 0.125 saw)) # connectionN 1
   d2 $ note "0(5,16)" # sound "superhat" # gain (range 1.1 0.4 saw) # connectionN 2
-
-  -- In d3, notes are used in a transversal way (such as chords [d4,e2,g2]) 
-  -- which appear in the same vertical line in the grid.
-  -- Randomness is also used with the "?" Sign, so sometimes empty times appear.
   
 ```
 
