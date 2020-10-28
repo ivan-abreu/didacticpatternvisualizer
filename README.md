@@ -6,6 +6,22 @@ Sound pattern visualizer programmed in Processing by the artist Ivan Abreu to st
 
 #
 
+Musical pattern example:
+
+[![SC2 Video](https://ivanabreu.net/github/videoivan.jpg)](https://ivanabreu.net/github/soundpatternbycndsd.mp4 "Click to play >")
+
+```haskell
+
+do
+  asap $ connectionMax 3 # speedSequenser 4
+  d5 $ grid "1 0!15"
+  d1 $ s "bd(3,8)" # connectionN 1
+  d2 $ s "hh(6,8)" # connectionN 2
+  d3 $ every 3 ( density 8 ) $ density 2 $ n "<[d4,e2,g2] [d4,e4,g2]?>" 
+     # s "superfork"  # connectionN 3
+
+```
+
 Musical pattern created by electronic musician and digital artist <b>CNDSD</b>:
 
 [![SC2 Video](https://ivanabreu.net/github/videomali.jpg)](https://ivanabreu.net/github/soundpatternbycndsd.mp4 "Click to play >")
