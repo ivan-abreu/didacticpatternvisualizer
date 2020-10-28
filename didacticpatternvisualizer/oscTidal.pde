@@ -1,14 +1,6 @@
-int millisPrev = 0;
-float offset = 0;
-String layerPrev = "";
-float widthCycleByBps = 100;
-float offsetSubdivision = 40;
-int subdivision = 1;
-int sincroniaCPrev = 0;
-
 void oscEvent(OscMessage m) {
   //println(m);
-  if (m.checkAddrPattern("/didacticpatternvisualizer")==true ) {
+  //if (m.checkAddrPattern("/didacticpatternvisualizer")==true ) {
     StringDict tidalLayer = new StringDict();
     for (int d=0; d<m.typetag().length(); d+=2 ) {
       String property = m.get(d).stringValue();
@@ -32,22 +24,22 @@ void oscEvent(OscMessage m) {
       } 
       tidalLayer.set(property, value);
     }
-    printArray(tidalLayer);
+    //printArray(tidalLayer);
 
     if ( tidalLayer.hasKey("grid") ) {
       cycles.add( new Cycle( tidalLayer.get("grid") ) ) ;
-    } else {
-      float cycle = parseFloat( tidalLayer.get("cycle") );
-      int sincroniaC = (int)((cycle - (int)(cycle)) * 100);
-      float sincroniaCMapped = 0; //map(sincroniaC, 0, 100, 0, 40); 
-      if ( sincroniaCPrev == sincroniaC ) {
-        offset += 10;
-      } else {
-        offset = 0;
-      }
-      sounds.add( new Sound(tidalLayer.get("connectionN"), tidalLayer, offset ) ) ;
-      layerPrev = tidalLayer.get("connectionN");
-      sincroniaCPrev = sincroniaC;
     }
-  }
+    
+    if ( tidalLayer.hasKey("connectionN") ) {
+      sounds.add( new Sound(tidalLayer) ) ;
+    }
+    if ( tidalLayer.hasKey("connectionMax") ) {
+      connectionTotal = parseInt( tidalLayer.get("connectionMax") )  ;
+      alturaBar = height/connectionTotal;
+    }
+    if ( tidalLayer.hasKey("speedSequenser") ) {
+      movSequenser = parseFloat( tidalLayer.get("speedSequenser") );
+    }
+    
+  //}
 }

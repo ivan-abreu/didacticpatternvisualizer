@@ -7,13 +7,18 @@ ArrayList<Sound> sounds = new ArrayList<Sound>();
 ArrayList<Cycle> cycles = new ArrayList<Cycle>();
 
 float alturaBar;
+float offsetSubdivision = 40;
 
-float movSequenser= 2;
+int connectionTotal = 4; // set total tracks (Number of Tidal connections to represent)
+float movSequenser= 2; // set grid speed (higher speed makes time wider)
+float sizeMin = 10;
+float sizeMax = 40;
 
 void setup() {
   osc = new OscP5(this, 1818);  
-  size(1400,400);
-  alturaBar = height/6;
+  size(1280,360);
+  //fullScreen(P3D, 2);
+  alturaBar = height/connectionTotal;
   noStroke();
   fill(0);  
   textSize(18);
@@ -22,10 +27,12 @@ void setup() {
 
 
 void draw() {
-  background(255);
+  background(0);
+  fill(255);
+  rect(0,0,width,height);
   fill(228);
   noStroke();
-  for(int y=0; y<3; y++ ) {
+  for(int y=0; y<(connectionTotal*0.5); y++ ) {
     rect(0, y*alturaBar*2, width, alturaBar);
   }
   for(int i=0; i<sounds.size() ; i++) {
@@ -34,8 +41,4 @@ void draw() {
   for(int i=0; i<cycles.size() ; i++) {
     if ( cycles.get(i)!= null) { cycles.get(i).draw(); }
   }
-}
-
-void keyPressed() {
-  save(millis()+".jpg");
 }
