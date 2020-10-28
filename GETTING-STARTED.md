@@ -1,4 +1,6 @@
-### Setting conexion between OSC (Tidal) to Processing.
+
+
+### 1. Setting conexion between OSC (Tidal) to Processing.
 
 You'll need execute tidal code in your editor, I have two options, depending of the Tidal version.
 
@@ -117,5 +119,9 @@ let  setI = streamSetI tidal
      setB = streamSetB tidal
      
 ``` 
+
+### 2. Download Processing sketch "didacticpatternvisualizer" and play.
+
+### 3. Execute some example from readme.md.
 
 
