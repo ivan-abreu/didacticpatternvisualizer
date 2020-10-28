@@ -2,12 +2,15 @@
 # English version (versión en español mas abajo)
 ```
 
-
 # Didactic pattern visualizer for Tidal Cycles 
 
 Sound pattern visualizer in Processing
 
 #
+
+Example 4:<br>
+[![SC2 Video](https://ivanabreu.net/github/videomali.jpg)](https://ivanabreu.net/videos/soundpatternbycndsd.mp4 "Click to play >")
+
 
 ### Sending OSC messages to Processing.
 
