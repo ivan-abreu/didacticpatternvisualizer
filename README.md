@@ -15,6 +15,9 @@ You'll need execute tidal code in your editor (usually Atom) ...
 
 ```haskell
 
+-- didactic pattern visualizer  
+-- testing on TidalCycles 3.10.0
+
 let targetdpv = Target {oName = "didacticpatternvisualizer",
                      oAddress = "127.0.0.1",
                      oPort = 1818,
@@ -23,17 +26,24 @@ let targetdpv = Target {oName = "didacticpatternvisualizer",
                      oSchedule = Live
                     }
     formatsdpv = [OSC "/didacticpatternvisualizer"  Named {required = []} ]
-    oscmapdpv = [(targetdpv, formatsdpv)]
-    
+    oscmapdpv = [(targetdpv, formatsdpv),
+                 (superdirtTarget, [superdirtShape])
+                 ]
+
     streamdpv <- startStream defaultConfig oscmapdpv
-    
+
 let grid = pS "grid"
     connectionN = pI "connectionN"
+    connectionMax = pI "connectionMax"
+    speedSequenser = pF "speedSequenser"
+
+asap = streamOnce streamdpv
 
 let d1 = streamReplace streamdpv 1
     d2 = streamReplace streamdpv 2
     d3 = streamReplace streamdpv 3
     d4 = streamReplace streamdpv 4
+    d5 = streamReplace streamdpv 5
     
 ```
 
