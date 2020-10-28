@@ -53,7 +53,7 @@ do
     
 ```
 #
-[Sending OSC messages to Processing (Getting started)](README.md#sending-osc-messages-to-processing)
+[Sending OSC messages to Processing (Getting started)](GETTING-STARTED.md)
 #
 
 
