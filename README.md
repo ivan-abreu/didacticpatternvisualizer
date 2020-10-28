@@ -8,7 +8,7 @@ Sound pattern visualizer programmed in Processing by the artist Ivan Abreu to st
 
 Musical pattern example:
 
-[![SC2 Video](https://ivanabreu.net/github/videoivan.jpg)](https://ivanabreu.net/github/soundpatternbycndsd.mp4 "Click to play >")
+[![SC2 Video](https://ivanabreu.net/github/videoivan.jpg)](https://ivanabreu.net/github/soundpatternbyivanabreu01.mp4 "Click to play >")
 
 ```haskell
 
@@ -52,6 +52,9 @@ do
     ] 
     
 ```
+#
+[Versión en español](README-ESP.md) | [Versión en español](README-ESP.md)  | [Versión en español](README-ESP.md) 
+#
 
 ### Sending OSC messages to Processing.
 
