@@ -92,6 +92,8 @@ d5 $ grid "1 0!7"
 
 #### Change the connection number you want to view and the speed of the sequencer animation.
 
+* this instruction does not need to be sent with the cycles, so <b>asap</b> only sends it once.
+
 <b>Two</b> connections
 
 <img src="https://ivanabreu.net/github/twoconnections.jpg">
