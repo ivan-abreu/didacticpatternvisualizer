@@ -53,7 +53,7 @@ do
     
 ```
 #
-[Sending OSC messages to Processing](#Sending OSC messages to Processing) | [Versión en español](README-ESP.md)  | [Versión en español](README-ESP.md) 
+[Sending OSC messages to Processing](README.md### Sending OSC messages to Processing) | [Versión en español](README-ESP.md)  | [Versión en español](README-ESP.md) 
 #
 
 ### Sending OSC messages to Processing.
