@@ -22,6 +22,7 @@ do
 
 ```
 
+
 Musical pattern created by electronic musician and digital artist <b>CNDSD</b>:
 
 [![SC2 Video](https://ivanabreu.net/github/videomali.jpg)](https://ivanabreu.net/github/soundpatternbycndsd.mp4 "Click to play >")
