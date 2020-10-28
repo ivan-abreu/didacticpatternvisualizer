@@ -1,4 +1,4 @@
-[Versión en español](README-ESP.md) 
+[Versión en español (en proceso...)](README-ESP.md) 
 
 # Didactic pattern visualizer for Tidal Cycles 
 
