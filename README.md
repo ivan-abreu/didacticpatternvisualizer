@@ -8,10 +8,34 @@ Sound pattern visualizer in Processing
 
 #
 
-Musical pattern created by electronic musician and digital artist <b>CNDSD</b>, using the original samples from TidalCycles:
+Musical pattern created by electronic musician and digital artist <b>CNDSD</b>:
 
 [![SC2 Video](https://ivanabreu.net/github/videomali.jpg)](https://ivanabreu.net/videos/soundpatternbycndsd.mp4 "Click to play >")
 
+Code from previous video by <b>CNDSD</b>, using only defaults samples of TidalCycles:
+
+```haskell
+do
+ asap $ connectionMax 5 # speedSequenser 2
+ d5 $ slow 0.75 $ grid "1 0!8"
+ d1 $ qtrigger 1 $ seqPLoop [
+    (0,8, slow 0.75 $ cat [
+    sometimesBy 0.15 (#crush 6)$ s "[bd(5,9),[superhat(2,9)]/2]"
+    # n "[[2 4],[g5 ,b6 ,a3]]"  # accelerate 0.8 # note "[f5] g2" # gain (slow 2 $ range 0.9 1.2 $ sine) #connectionN 1,
+    sometimesBy 0.25 (# speed "[[1 0.8],[1.5 2]*2]") $ s "[yeah(3,9),notes(7,9)]" # n "[[2][a4 ,d7 g6]b3]" # gain "1.2" #connectionN 2,
+    sound "[print(2,9)]/4" # n "3" # gain "1.2" #room 0.1 #connectionN 3,
+    sound " ~ ~ [sax]/12" # n "2" # gain "1.2" # legato 3 #room 0.5 #connectionN 4,
+    sound "{super808 ~ ~ ~ ~ ~}%1.5" # n "g2" # gain "1.5" # legato 4 #room 1 #connectionN 5] ),
+    (8,24, slow 0.75 $ stack [
+    sometimesBy 0.15 (#crush 6)$ s "[bd(5,9),[superhat(2,9)]/2]"
+    # n "[[2 4],[g5 ,b6 ,a3]]"  # accelerate 0.8 # note "[f5] g2" # gain (slow 2 $ range 0.9 1.2 $ sine) #connectionN 1,
+    sometimesBy 0.25 (# speed "[[1 0.8],[1.5 2]*2]") $ s "[yeah(3,9),notes(7,9)]" # n "[[2][a4 ,d7 g6]b3]" # gain "1.2" #connectionN 2,
+    sound "[print(2,9)]/4" # n "3" # gain "1.2" #room 0.1 #connectionN 3,
+    sound " ~ ~ [sax]/12" # n "2" # gain "1.2" # legato 3 #room 0.5 #connectionN 4,
+    sound "{super808 ~ ~ ~ ~ ~}%1.5" # n "g2" # gain "1.5" # legato 4 #room 1 #connectionN 5] )
+    ] 
+    
+```
 
 ### Sending OSC messages to Processing.
 
