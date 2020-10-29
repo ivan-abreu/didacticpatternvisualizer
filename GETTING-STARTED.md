@@ -1,6 +1,6 @@
 
 
-### 1. Setting conexion between OSC (Tidal) to Processing.
+### 1. Setting conexion between OSC (Tidal) and Processing.
 
 You'll need execute tidal code in your editor, I have two options, depending of the Tidal version.
 
