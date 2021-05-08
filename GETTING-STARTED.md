@@ -27,6 +27,11 @@ let grid = pS "grid"
     connectionN = pI "connectionN"
     connectionMax = pI "connectionMax"
     speedSequenser = pF "speedSequenser"
+    clear = pI "clear"
+    sizeMin = pF "sizeMin"
+    sizeMax = pF "sizeMax"
+    figure = pS "figure"
+    color = pS "color"
 
 asap = streamOnce streamdpv
 
@@ -56,7 +61,11 @@ let targetdpv :: OSCTarget
     connectionN = pI "connectionN"
     connectionMax = pI "connectionMax"
     speedSequenser = pF "speedSequenser"
-
+    clear = pI "clear"
+    sizeMin = pF "sizeMin"
+    sizeMax = pF "sizeMax"
+    figure = pS "figure"
+    color = pS "color"
 
 tidal <- startMulti [superdirtTarget {oLatency = 0.1, oAddress = "127.0.0.1", oPort = 57120},
                      targetdpv
