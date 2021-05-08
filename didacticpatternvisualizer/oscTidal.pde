@@ -39,6 +39,13 @@ void oscEvent(OscMessage m) {
     }
     if ( tidalLayer.hasKey("speedSequenser") ) {
       movSequenser = parseFloat( tidalLayer.get("speedSequenser") );
+    }   
+    if ( tidalLayer.hasKey("clear") ) {
+      noLoop();
+      cycles.clear();
+      sounds.clear();
+      background(255,255,255);
+      loop();
     }
     
   //}

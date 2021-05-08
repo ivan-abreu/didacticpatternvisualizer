@@ -11,8 +11,7 @@ float offsetSubdivision = 40;
 
 int connectionTotal = 4; // set total tracks (Number of Tidal connections to represent)
 float movSequenser= 2; // set grid speed (higher speed makes time wider)
-float sizeMin = 10;
-float sizeMax = 40;
+
 
 void setup() {
   osc = new OscP5(this, 1818);  
@@ -29,6 +28,7 @@ void setup() {
 void draw() {
   background(0);
   fill(255);
+  rectMode(CORNER);
   rect(0,0,width,height);
   fill(228);
   noStroke();
