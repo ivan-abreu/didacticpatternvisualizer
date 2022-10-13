@@ -2,12 +2,11 @@
 
 ### 1. Setting conexion between OSC (Tidal) and Processing.
 
-Testing with 3.16.17 Tidal version.
 
 ```haskell
 
 -- didactic pattern visualizer  
--- testing on TidalCycles 3.14.1
+-- testing on TidalCycles 3.16.17
 
 import Sound.Tidal.Context
 
