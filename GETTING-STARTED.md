@@ -138,7 +138,7 @@ import Sound.Tidal.Context
 
 let  targetdpv = Target {oName = "didacticpatternvisualizer",
                         oAddress = "127.0.0.1",
-                        oPort = 4884,
+                        oPort = 1818,
                         oLatency = 0.2,
                         oWindow = Nothing,
                         oSchedule = Live,
