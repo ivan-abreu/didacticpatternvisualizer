@@ -34,7 +34,7 @@ let  targetdpv = Target {oName = "didacticpatternvisualizer",
      color = pS "color"
 
 
-tidal <- startStream defaultConfig oscmapdpv
+-- tidal <- startStream defaultConfig oscmapdpv
 
 -- total latency = oLatency + cFrameTimespan
 -- tidal <- startTidal (superdirtTarget {oLatency = 0.1, oAddress = "127.0.0.1", oPort = 57120}) (defaultConfig {cVerbose = True, cFrameTimespan = 1/20})
