@@ -27,11 +27,11 @@ The Didactic pattern visualizer (DPV) consists of a set of code files developed 
 
 5. In the Processing window, select the "Play" button (>). A new window should come up titled: **didacticpatternvisualizer**
 
-6. Add DPV parameters to a Tidal pattern and execute. You should now see colorful patterns in the visualizer! 
+6. Add DPV parameters to a Tidal pattern and execute. You should now see colorful patterns in the visualizer!
     - See the Readme.md for more examples.
-    - Add `connectionN <num>` for each d<num> channel
+    - Add `connectionN <num>` for each channel (d1, d2, d3, etc).
     - Add `connectionMax <num> # speedSequenser <num>`
-    - Other parameters include clear, sizeMin, sizeMax, figure, color
+    - Other parameters include `clear, sizeMin, sizeMax, figure, color`.
 
 ```Haskell
 do
