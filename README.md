@@ -28,7 +28,7 @@ do
 Musical pattern created by electronic musician and digital artist <b>CNDSD</b>:
 
 
-[![SC2 Video](https://ivanabreu.net/github/videomali.jpg)](https://ivanabreu.net/github/soundpatternbycndsd.mp4 "Click to play >")
+[![SC2 Video](https://livecinemacoding.xyz/didacticpatternvisualizer/videomali.jpg)](https://livecinemacoding.xyz/didacticpatternvisualizer/soundpatternbycndsd.mp4 "Click to play >")
 
 Code from previous video by <b>CNDSD</b>, using only defaults samples of TidalCycles:
 
@@ -66,7 +66,7 @@ Examples to set pattern in Tidal to view grid and time division<br>
 
 Grid with <b>four times</b>
 
-<img src="https://ivanabreu.net/github/4t.jpg">
+<img src="https://livecinemacoding.xyz/didacticpatternvisualizer/4t.jpg">
 
 ```haskell
 
@@ -80,7 +80,7 @@ d5 $ grid "1 0!3"
 
 Grid with <b>eight times</b>
 
-<img src="https://ivanabreu.net/github/8t.jpg">
+<img src="https://livecinemacoding.xyz/didacticpatternvisualizer/8t.jpg">
 
 ```haskell
 
@@ -98,7 +98,7 @@ d5 $ grid "1 0!7"
 
 <b>Two</b> connections
 
-<img src="https://ivanabreu.net/github/twoconnections.jpg">
+<img src="https://livecinemacoding.xyz/didacticpatternvisualizer/twoconnections.jpg">
 
 ```haskell
 
@@ -108,7 +108,7 @@ asap $ connectionMax 2 # speedSequenser 2
 
 <b>Six</b> connections
 
-<img src="https://ivanabreu.net/github/sixconnections.jpg">
+<img src="https://livecinemacoding.xyz/didacticpatternvisualizer/sixconnections.jpg">
 
 ```haskell
 
@@ -118,7 +118,7 @@ asap $ connectionMax 6 # speedSequenser 2
 
 <b>twelve</b> connections
 
-<img src="https://ivanabreu.net/github/twelveconnections.jpg">
+<img src="https://livecinemacoding.xyz/didacticpatternvisualizer/twelveconnections.jpg">
 
 ```haskell
 
@@ -136,7 +136,7 @@ You'll need put the function <b># connectionN n</b>, where <b>n</b> is the numbe
 
 1. Simple pattern example :
 
-[![SC2 Video](https://ivanabreu.net/github/patternsimple01play.jpg)](https://ivanabreu.net/github/patternsimple01.mp4 "Click to play >")
+[![SC2 Video](https://livecinemacoding.xyz/didacticpatternvisualizer/patternsimple01play.jpg)](https://livecinemacoding.xyz/didacticpatternvisualizer/patternsimple01.mp4 "Click to play >")
 
 ```haskell
 
@@ -149,7 +149,7 @@ do
 
 2. Simple pattern example :
 
-[![SC2 Video](https://ivanabreu.net/github/patternsimple02play.jpg)](https://ivanabreu.net/github/patternsimple02.mp4 "Click to play >")
+[![SC2 Video](https://livecinemacoding.xyz/didacticpatternvisualizer/patternsimple02play.jpg)](https://livecinemacoding.xyz/didacticpatternvisualizer/patternsimple02.mp4 "Click to play >")
 
 ```haskell
 
@@ -162,7 +162,7 @@ do
 
 3. Euclidian pattern example :
 
-[![SC2 Video](https://ivanabreu.net/github/patterneuclidianplay.jpg)](https://ivanabreu.net/github/patterneuclidian.mp4 "Click to play >")
+[![SC2 Video](https://livecinemacoding.xyz/didacticpatternvisualizer/patterneuclidianplay.jpg)](https://livecinemacoding.xyz/didacticpatternvisualizer/patterneuclidian.mp4 "Click to play >")
 
 ```haskell
 
@@ -176,7 +176,7 @@ do
 
 4. Pattern contracting and expanding time with a saw wave:
 
-[![SC2 Video](https://ivanabreu.net/github/patterncpsplay.jpg)](https://ivanabreu.net/github/patterncps.mp4 "Click to play >")
+[![SC2 Video](https://livecinemacoding.xyz/didacticpatternvisualizer/patterncpsplay.jpg)](https://livecinemacoding.xyz/didacticpatternvisualizer/patterncps.mp4 "Click to play >")
 
 ```haskell
 
