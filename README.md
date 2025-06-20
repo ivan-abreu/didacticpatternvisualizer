@@ -10,7 +10,7 @@ Sound pattern visualizer programmed in Processing by the artist Ivan Abreu to st
 
 Musical pattern example:
 
-[![SC2 Video](https://ivanabreu.net/github/videoivan.jpg)](https://ivanabreu.net/github/soundpatternbyivanabreu01.mp4 "Click to play >")
+[![SC2 Video](https://livecinemacoding.xyz/didacticpatternvisualizer/videoivan.jpg)](https://livecinemacoding.xyz/didacticpatternvisualizer/soundpatternbyivanabreu01.mp4 "Click to play >")
 
 ```haskell
 
