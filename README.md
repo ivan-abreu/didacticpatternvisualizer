@@ -98,7 +98,7 @@ d5 $ grid "1 0!7"
 
 <b>Two</b> connections
 
-<img src="[https://livecinemacoding.xyz/didacticpatternvisualizer/twoconnections.jpg](https://livecinemacoding.xyz/didacticpatternvisualizer/twoconnections.jpg)">
+<img src="https://livecinemacoding.xyz/didacticpatternvisualizer/twoconnections.jpg">
 
 ```haskell
 
